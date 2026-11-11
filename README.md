@@ -496,13 +496,20 @@ Use these files as supporting records. They must never contradict this README.
 | File | Purpose |
 |---|---|
 | [DASHBOARD.md](DASHBOARD.md) | Current verified progress snapshot |
-| [templates/DAILY-LOG.md](templates/DAILY-LOG.md) | One record for each reported study session |
+| [templates/DAILY-LOG.md](templates/DAILY-LOG.md) | Detailed template copied into one dated daily note |
 | [templates/WEEKLY-REVIEW.md](templates/WEEKLY-REVIEW.md) | Weekly accuracy, weak areas, and next actions |
 | [data/pyq-tracker.csv](data/pyq-tracker.csv) | Exam, year/shift, topic, attempts, accuracy, time, source |
 | [data/mistake-log.csv](data/mistake-log.csv) | Wrong/guessed questions, cause, correction, reattempt |
 | [data/vocabulary.csv](data/vocabulary.csv) | Words, meanings, examples, and review status |
 | [data/revision-queue.csv](data/revision-queue.csv) | D+1/D+7/D+15/D+30 revision schedule |
 | [notes/REVISION-SYSTEM.md](notes/REVISION-SYSTEM.md) | Revision-system reference |
+
+### Daily note workflow
+
+- For every study day with reported/verified activity, create or update exactly one file: `logs/YYYY-MM-DD.md`.
+- Use `templates/DAILY-LOG.md` as the structure. Record concepts learned, PYQ/practice results and sources, mistake explanations, vocabulary, revisions, descriptive-writing feedback (if applicable), and the next-session target.
+- If multiple chats happen on the same date, append to that date's existing note; never create duplicate files for one day.
+- Do not create a daily study note when no session data was supplied. Do not invent a session or fill unknown fields with guesses.
 
 ### Data integrity rules
 
