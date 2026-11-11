@@ -513,7 +513,7 @@ Use these files as supporting records. They must never contradict this README.
 - Accuracy = correct ÷ attempted × 100. Do not count unattempted questions in the denominator.
 - A guessed correct answer should still be logged for review.
 - Update the dashboard only from verified tracker/log data.
-- When no session data is supplied, leave progress unchanged.
+- When no session data is supplied, leave progress unchanged and do not create a fake daily study note. If multiple chats happen on the same date, append to that date's existing log rather than creating duplicates.
 
 ### Weekly review questions
 
