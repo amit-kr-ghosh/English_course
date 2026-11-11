@@ -496,7 +496,7 @@ Use these files as supporting records. They must never contradict this README.
 | File | Purpose |
 |---|---|
 | [DASHBOARD.md](DASHBOARD.md) | Current verified progress snapshot |
-| [templates/DAILY-LOG.md](templates/DAILY-LOG.md) | Detailed template copied into one dated daily note |
+| [templates/DAILY-LOG.md](templates/DAILY-LOG.md) | Detailed template copied into one sequential study-day note |
 | [templates/WEEKLY-REVIEW.md](templates/WEEKLY-REVIEW.md) | Weekly accuracy, weak areas, and next actions |
 | [data/pyq-tracker.csv](data/pyq-tracker.csv) | Exam, year/shift, topic, attempts, accuracy, time, source |
 | [data/mistake-log.csv](data/mistake-log.csv) | Wrong/guessed questions, cause, correction, reattempt |
@@ -506,9 +506,10 @@ Use these files as supporting records. They must never contradict this README.
 
 ### Daily note workflow
 
-- For every study day with reported/verified activity, create or update exactly one file: `logs/YYYY-MM-DD.md`.
+- For every actual study day with reported/verified activity, create or update exactly one sequential file: `logs/Day-01.md`, `logs/Day-02.md`, and so on.
 - Use `templates/DAILY-LOG.md` as the structure. Record concepts learned, PYQ/practice results and sources, mistake explanations, vocabulary, revisions, descriptive-writing feedback (if applicable), and the next-session target.
-- If multiple chats happen on the same date, append to that date's existing note; never create duplicate files for one day.
+- The Day number counts completed study days, not calendar dates. Record the calendar date inside the note as metadata. Missed days do not increment the number.
+- Before creating a note, inspect existing files and continue from the highest valid Day number; never overwrite or duplicate a day. If multiple chats/sessions belong to the same study day, append to that day's note.
 - Do not create a daily study note when no session data was supplied. Do not invent a session or fill unknown fields with guesses.
 
 ### Data integrity rules
