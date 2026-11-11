@@ -1,9 +1,10 @@
-# Daily Study Notes — YYYY-MM-DD
+# Study Day Notes — Day NN
 
-> Create one file per calendar day at `logs/YYYY-MM-DD.md`. Record only what was actually studied or explicitly reported. Leave unknown fields blank; never estimate or invent progress.
+> Save as `logs/Day-NN.md`, using sequential study-day numbering (for example, `logs/Day-01.md`, `logs/Day-02.md`). The calendar date is metadata only. Increment the day number only when a new actual study day is completed; missed calendar days do not increment it. If multiple chats concern the same study day, update the same file.
 
 ## Session snapshot
-- **Date:**
+- **Study day number:**
+- **Calendar date (Asia/Kolkata):**
 - **Study time:** __ / 60 minutes
 - **Session type:** concept / PYQ practice / RC / descriptive writing / revision / mock
 - **Topics covered:**
@@ -60,4 +61,4 @@ For each important mistake or lucky guess:
 - **Questions for the next session:**
 
 ---
-**Data integrity:** A daily note is a record, not a prediction. Do not fill in missing scores, study time, or completed work. If no study session took place or no session details were provided, do not create a false study entry.
+**Data integrity:** A study-day note is a record, not a prediction. Do not fill in missing scores, study time, or completed work. Do not increment the study-day number for a missed day or a day with no verified study activity.
